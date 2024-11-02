@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f5f2;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: #333;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            color: #4CAF50;
+            font-size: 2em;
+            margin-top: 0;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+        .signature {
+            margin-top: 20px;
+            font-style: italic;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- Replace with an image URL or path to add a personal touch -->
+        <img src="https://via.placeholder.com/600x300" alt="Thank You Image">
+
+        <h1>Thank You!</h1>
+        <p>Dear Fisayomi</p>
+
+        <p>I wanted to take a moment to say thank you for such a wonderful online kingdom date. Spending time with you and sharing our faith, experiences, and joy in the Lord was truly refreshing. It's amazing to connect with someone as kind and inspiring as you! I don't know if I told you, you are funny. Because you are. You're just awesome sis.</p>
+
+        <p>Your warmth, jokes and faith-filled spirit shone through in every conversation, and I’m grateful for the chance to grow closer as brothers and sisters in Christ. I hope this is the start of many more moments of encouragement and shared joy in God's kingdom.</p>
+
+        <p>Sending blessings and prayers all the way to Ghana! Looking forward to our next conversation.</p>
+
+        <div class="signature">
+            Warmly,<br>Tumelo
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
